@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://duguangbao.github.io/"/>
-  <updated>2018-08-23T08:31:52.909Z</updated>
+  <updated>2018-09-03T11:21:40.719Z</updated>
   <id>https://duguangbao.github.io/</id>
   
   <author>
@@ -17,20 +17,60 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo + github + next 主题配置</title>
-    <link href="https://duguangbao.github.io/2018/08/23/hexo%20+%20github%20+%20next%20%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE/"/>
-    <id>https://duguangbao.github.io/2018/08/23/hexo + github + next 主题配置/</id>
-    <published>2018-08-22T16:00:00.000Z</published>
-    <updated>2018-08-23T08:31:52.909Z</updated>
+    <title>hexo + next 深度主题配置讲解</title>
+    <link href="https://duguangbao.github.io/2018/09/02/hexo%20+%20next%20%E6%B7%B1%E5%BA%A6%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E8%AE%B2%E8%A7%A3/"/>
+    <id>https://duguangbao.github.io/2018/09/02/hexo + next 深度主题配置讲解/</id>
+    <published>2018-09-01T16:00:00.000Z</published>
+    <updated>2018-09-03T11:21:40.719Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p class="description"></p><p><img src="https://" alt="" style="width:100%"></p><a id="more"></a><p>##</p><p>##</p><p>##</p><hr>]]></content>
     
     <summary type="html">
     
-      总结一下我(一个小白)使用hexo+github做博客站的过程，一方面可以帮到有需要的朋友，另一方面也方便我自己的查阅。
+      hexo + next 主题的配置问题
     
     </summary>
     
+      <category term="博客站" scheme="https://duguangbao.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99/"/>
+    
+      <category term="主题" scheme="https://duguangbao.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99/%E4%B8%BB%E9%A2%98/"/>
+    
+    
+      <category term="博客站" scheme="https://duguangbao.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%AB%99/"/>
+    
+      <category term="hexo" scheme="https://duguangbao.github.io/tags/hexo/"/>
+    
+      <category term="next" scheme="https://duguangbao.github.io/tags/next/"/>
+    
+      <category term="主题" scheme="https://duguangbao.github.io/tags/%E4%B8%BB%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用 hexo + github 搭建自己的博客站</title>
+    <link href="https://duguangbao.github.io/2018/08/23/%E4%BD%BF%E7%94%A8%20hexo%20+%20github%20%E6%90%AD%E5%BB%BA%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%E7%AB%99/"/>
+    <id>https://duguangbao.github.io/2018/08/23/使用 hexo + github 搭建自己的博客站/</id>
+    <published>2018-08-22T16:00:00.000Z</published>
+    <updated>2018-09-03T11:54:42.999Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="写在前面："><a href="#写在前面：" class="headerlink" title="写在前面："></a>写在前面：</h3><p>本篇内容将只讲解关于hexo + github page 建立博客站的过程，主题配置请看另外一篇，点击<a href="url">这里</a>跳转</p><h3 id="软件安装"><a href="#软件安装" class="headerlink" title="软件安装"></a>软件安装</h3><h4 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h4><p>Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境，简单的说就是运行在服务端的 JavaScript，更深的东西请慢慢挖掘</p><p>至于下载嘛，登陆网站<a href="http://nodejs.cn/" target="_blank" rel="noopener">http://nodejs.cn/</a> ，下载安装，一路next就好</p><h4 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h4><p>git的大名想来都听过，它现已成为了世界上最先进的分布式版本控制系统之一，这里使用它还可以快速的将你的本地资料发布到github</p><p>git的安装也十分简单，下载安装，一路next就好，这里给出网址：<a href="https://git-scm.com/downloads" target="_blank" rel="noopener">https://git-scm.com/downloads</a></p><p>再给出一个教程链接吧，我之前学习用的就是这个：</p><p>廖雪峰大神写的<a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000" target="_blank" rel="noopener">git教程</a></p><h4 id="安装hexo"><a href="#安装hexo" class="headerlink" title="安装hexo"></a>安装hexo</h4><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown 解析文章，在很短的时间内，即可利用靓丽的主题生成静态网页</p><p>前面的装完之后打开git bash 使用命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cil</span><br><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><p>即可轻松安装</p><h3 id="在本地建立博客"><a href="#在本地建立博客" class="headerlink" title="在本地建立博客"></a>在本地建立博客</h3><h4 id="本地建立"><a href="#本地建立" class="headerlink" title="本地建立"></a>本地建立</h4><p>在自己电脑上建立一个博客用的文件夹</p><p>在文件夹右键打开git bash，任意打开git bash cd到你要用的文件夹当然也行</p><p>输入一下命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></p><p>收到bash中的提示，浏览器打开localhos:4000即可查看效果</p><p>如图所示：</p><p><img src="http://pdqr1fc6z.bkt.clouddn.com/20161115143629057_%E7%9C%8B%E5%9B%BE%E7%8E%8B.jpg" alt="shushi"></p><p>当可以正常显示出来的时候。就说明你的本地的博客已经做好了</p><h4 id="更改主题"><a href="#更改主题" class="headerlink" title="更改主题"></a>更改主题</h4><p>hexo的主题有很多，这里我选择使用较多的next主题</p><p>在站点根目录，即一开始执行 hexo init 命令的目录，打开 git bash 输入以下命令将next主题文件clone到本地<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure></p><p>也可以在github直接下载主题，复制一份到theme文件夹下</p><p>给出hexo主题next链接，可以好好了解一下，<a href="https://github.com/iissnan/hexo-theme-next" target="_blank" rel="noopener">https://github.com/iissnan/hexo-theme-next</a></p><p>之后打开站点配置文件，即根目录下的_config.yml文件(next主题下的_config.yml文件我们可以称之为主题配置文件)</p><p>修改theme为 theme: next，即</p><p><img src="http://pdqr1fc6z.bkt.clouddn.com/%E6%8D%95%E8%8E%B7.PNG" alt="theme"></p><p>再打开主题配置文件，定位到scheme字段，从此处可选择next的主题样式，例如：</p><p><img src="http://pdqr1fc6z.bkt.clouddn.com/2.jpg" alt="2"></p><p>图示为pisces双栏样式，可执行<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure></p><p>打开localhost:4000查看效果</p><h3 id="将博客部署到云端"><a href="#将博客部署到云端" class="headerlink" title="将博客部署到云端"></a>将博客部署到云端</h3><p>到现在一直是将博客部署在本地，下面将博客部署到github上</p><h4 id="注册github"><a href="#注册github" class="headerlink" title="注册github"></a>注册github</h4><p>此过程十分简单，大家看着办就行</p><h4 id="添加ssh-key"><a href="#添加ssh-key" class="headerlink" title="添加ssh key"></a>添加ssh key</h4><p>添加ssh key可以省去每次输入用户名和密码的麻烦</p><p>这里也不难，给出两个链接吧</p><p>以前看过的一个教程：</p><p><a href="https://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/" target="_blank" rel="noopener">https://ehlxr.me/2016/07/23/%E4%BD%BF%E7%94%A8Hexo%E5%9F%BA%E4%BA%8EGitHub-Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%EF%BC%88%E4%B8%80%EF%BC%89/</a></p><p>官方资料：</p><p><a href="https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/" target="_blank" rel="noopener">https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/</a></p><h4 id="建立新库并启用github-page"><a href="#建立新库并启用github-page" class="headerlink" title="建立新库并启用github page"></a>建立新库并启用github page</h4><p>选择头像前的加号，建立新库</p><p><img src="http://peh9oq6fj.bkt.clouddn.com/xsj/11.jpg" alt="enter description here"></p><p><img src="http://peh9oq6fj.bkt.clouddn.com/xsj/12.jpg" alt="enter description here"></p><p>创建之后，选择sitting，开启github page</p><p><img src="http://peh9oq6fj.bkt.clouddn.com/xsj/13.jpg" alt="enter description here"></p><p>保存即可，这个时候访问你的github page链接，应该是刚刚自己随意选择的主题</p><p>再次修改站点配置文件</p><p><img src="http://peh9oq6fj.bkt.clouddn.com/xsj/14.jpg" alt="enter description here"></p><p>将链接中的用户名改成是你自己的就可以了</p><p>执行命令</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean //清空存储文件夹</span><br><span class="line">hexo g // 重新生成网页文件</span><br><span class="line">hexo d // 发布</span><br></pre></td></tr></table></figure><p>等一会再访问你的github网页就可以看到效果了</p><h3 id="再说一下写博客的事"><a href="#再说一下写博客的事" class="headerlink" title="再说一下写博客的事"></a>再说一下写博客的事</h3><p>在根目录下打开git bash输入<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo n &apos;name&apos;</span><br></pre></td></tr></table></figure></p><p>即可在source/_post/目录下创建一篇name.md的博文</p><p>也可以在该文件下直接创建</p><p>文章在编辑完成之后可以在执行之前的命令进行生成，上传</p><h3 id="写在后面"><a href="#写在后面" class="headerlink" title="写在后面"></a>写在后面</h3><p>最后有几点需要补充</p><ol><li>无论是在主题配置文件还是站点配置文件里，冒号后面都有一个空格，符号都为半角</li><li>文件以markdown语法编写，可用的编辑器有很多，大家可以自行选择，我现在用的是”小书匠”</li><li>这里列举的有一些<a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">常见错误</a>，大家可以看看</li></ol><p>这里是<a href="http://dgbblog.xyz" target="_blank" rel="noopener">我的博客</a>，大家可以看一下<br>地址：dgbblog.xyz</p><p>更多相关的主题配置可以到我的这<a href="http://localhost:4001/2018/09/02/hexo%20+%20next%20%E6%B7%B1%E5%BA%A6%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E8%AE%B2%E8%A7%A3/" target="_blank" rel="noopener">一篇博客</a>中看，在这里我会详细的写下next主题的配置</p>]]></content>
+    
+    <summary type="html">
+    
+      总结一下我(一个小白)使用hexo+github做博客站的过程，一方面可以帮到有需要的朋友，另一方面也方便我自己回顾。
+    
+    </summary>
+    
+      <category term="博客站" scheme="https://duguangbao.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99/"/>
+    
+      <category term="hexo" scheme="https://duguangbao.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%AB%99/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://duguangbao.github.io/tags/hexo/"/>
+    
+      <category term="next" scheme="https://duguangbao.github.io/tags/next/"/>
+    
+      <category term="建站" scheme="https://duguangbao.github.io/tags/%E5%BB%BA%E7%AB%99/"/>
     
   </entry>
   
